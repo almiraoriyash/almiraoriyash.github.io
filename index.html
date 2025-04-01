@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привет, мир!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Привет, мир!</h1>
+    <div id="content">
+        <p>Это моя первая веб-страница.</p>
+        <button class="button">Нажми меня!</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: navy;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: royalblue;
+}
+document.querySelector('.button').addEventListener('click', function() {
+    alert('Вы нажали на кнопку!');
+});
