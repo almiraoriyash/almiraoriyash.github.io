@@ -43,3 +43,39 @@
 </iframe>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="style.css"> <!-- Если у тебя есть файл стилей -->
+</head>
+<body>
+
+  <!-- Меню навигации -->
+  <nav>
+    <ul>
+      <li><a href="#map" class="nav-link">Карта</a></li> <!-- Ссылка на раздел "Карта" -->
+      <li><a href="#animation" class="nav-link">Анимация</a></li> <!-- Ссылка на раздел "Анимация" -->
+      <!-- другие пункты меню -->
+    </ul>
+  </nav>
+
+  <!-- Раздел "Карта" -->
+  <div id="map" class="section">
+    <h2>Карта</h2>
+    <!-- Встроенная карта Нью-Йорка -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.248348603787!2d-74.00601548459223!3d40.71277577933156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3159b028f7%3A0x8e960cd1b325b83e!2sNew%20York%20City%2C%20NY!5e0!3m2!1sen!2sus!4v1629880748942!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <!-- Раздел "Анимация" -->
+  <div id="animation" class="section">
+    <h2>Анимация</h2>
+    <p class="animate">Пример текста с анимацией.</p>
+  </div>
+
+  <!-- Подключение JavaScript, если нужно -->
+  <script src="script.js"></script>
+</body>
+</html>
