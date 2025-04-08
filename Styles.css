@@ -26,3 +26,20 @@ h1 {
 .button:hover {
     background-color: royalblue;
 }
+/* Стиль для анимации */
+.animate {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Дополнительные стили для блока "Карта" и "Анимация" */
+.section {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
